@@ -1,9 +1,9 @@
 <?php
 
-namespace Lucinda\Console\Rendering;
+namespace Lucinda\ConsoleViewLanguage\Rendering;
 
-use Lucinda\Console\Styling\Style;
-use Lucinda\Console\Terminal\EnvironmentDetector\Results;
+use Lucinda\ConsoleViewLanguage\Styling\Style;
+use Lucinda\ConsoleViewLanguage\Terminal\EnvironmentDetector\Results;
 
 final class AnsiPainter
 {

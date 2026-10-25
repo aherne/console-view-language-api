@@ -1,9 +1,9 @@
 <?php
 
-namespace Lucinda\Console\Styling;
+namespace Lucinda\ConsoleViewLanguage\Styling;
 
-use Lucinda\Console\Language\ElementNode;
-use Lucinda\Console\Language\ParseException;
+use Lucinda\ConsoleViewLanguage\Language\ElementNode;
+use Lucinda\ConsoleViewLanguage\Language\ParseException;
 
 final class StyleResolver
 {

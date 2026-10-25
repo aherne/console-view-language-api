@@ -1,8 +1,8 @@
 <?php
 
-namespace Lucinda\Console\Terminal\EnvironmentDetector;
+namespace Lucinda\ConsoleViewLanguage\Terminal\EnvironmentDetector;
 
-use Lucinda\Console\Terminal\ColorDepth;
+use Lucinda\ConsoleViewLanguage\Terminal\ColorDepth;
 
 final class Results
 {

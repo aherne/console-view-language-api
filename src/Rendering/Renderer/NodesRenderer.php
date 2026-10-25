@@ -1,6 +1,6 @@
 <?php
 
-namespace Lucinda\Console\Rendering\Renderer;
+namespace Lucinda\ConsoleViewLanguage\Rendering\Renderer;
 
 interface NodesRenderer
 {

@@ -1,8 +1,8 @@
 <?php
-namespace Test\Lucinda\Console\Language;
+namespace Test\Lucinda\ConsoleViewLanguage\Language;
 
-use Lucinda\Console\Language\ParseException;
-use Lucinda\Console\Language\SourcePosition;
+use Lucinda\ConsoleViewLanguage\Language\ParseException;
+use Lucinda\ConsoleViewLanguage\Language\SourcePosition;
 use Lucinda\UnitTest\Validator\Strings;
     
 class ParseExceptionTest

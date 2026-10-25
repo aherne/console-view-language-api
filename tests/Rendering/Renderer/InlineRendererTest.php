@@ -1,9 +1,9 @@
 <?php
-namespace Test\Lucinda\Console\Rendering\Renderer;
+namespace Test\Lucinda\ConsoleViewLanguage\Rendering\Renderer;
 
-use Lucinda\Console\Rendering\Renderer\InlineRenderer;
-use Lucinda\Console\Styling\Style;
-use Test\Lucinda\Console\Helper;
+use Lucinda\ConsoleViewLanguage\Rendering\Renderer\InlineRenderer;
+use Lucinda\ConsoleViewLanguage\Styling\Style;
+use Test\Lucinda\ConsoleViewLanguage\Helper;
 use Lucinda\UnitTest\Validator\Arrays;
     
 class InlineRendererTest

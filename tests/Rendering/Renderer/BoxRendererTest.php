@@ -1,10 +1,11 @@
 <?php
-namespace Test\Lucinda\Console\Rendering\Renderer;
+namespace Test\Lucinda\ConsoleViewLanguage\Rendering\Renderer;
 
-use Lucinda\Console\Rendering\Renderer\BoxRenderer;
-use Lucinda\Console\Rendering\Renderer\MultiRenderer;
-use Test\Lucinda\Console\Helper;
+use Lucinda\ConsoleViewLanguage\Rendering\Renderer\BoxRenderer;
+use Lucinda\ConsoleViewLanguage\Rendering\Renderer\MultiRenderer;
+use Test\Lucinda\ConsoleViewLanguage\Helper;
 use Lucinda\UnitTest\Validator\Strings;
+use Lucinda\ConsoleViewLanguage\Terminal\ColorDepth;
     
 class BoxRendererTest
 {
@@ -13,7 +14,7 @@ class BoxRendererTest
     {
         $helper = new Helper();
         $box = $helper->element("box", ["title" => "X", "border" => "ascii"], [$helper->element("p", [], [$helper->text("ok")])]);
-        $output = implode("\n", (new BoxRenderer($helper->context(20, \Lucinda\Console\Terminal\ColorDepth::NONE, false)))->render($box, 10, new MultiRenderer($helper->context(20, \Lucinda\Console\Terminal\ColorDepth::NONE, false))));
+        $output = implode("\n", (new BoxRenderer($helper->context(20, ColorDepth::NONE, false)))->render($box, 10, new MultiRenderer($helper->context(20, ColorDepth::NONE, false))));
         return (new Strings($output))->assertContains("+ X ");
     }
         

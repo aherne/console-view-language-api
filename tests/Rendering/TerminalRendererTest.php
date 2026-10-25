@@ -1,10 +1,10 @@
 <?php
-namespace Test\Lucinda\Console\Rendering;
+namespace Test\Lucinda\ConsoleViewLanguage\Rendering;
 
-use Lucinda\Console\Language\Parser;
-use Lucinda\Console\Rendering\TerminalRenderer;
-use Lucinda\Console\Styling\Theme;
-use Test\Lucinda\Console\Helper;
+use Lucinda\ConsoleViewLanguage\Language\Parser;
+use Lucinda\ConsoleViewLanguage\Rendering\TerminalRenderer;
+use Lucinda\ConsoleViewLanguage\Styling\Theme;
+use Test\Lucinda\ConsoleViewLanguage\Helper;
 use Lucinda\UnitTest\Validator\Strings;
     
 class TerminalRendererTest

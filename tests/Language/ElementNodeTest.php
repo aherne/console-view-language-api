@@ -1,8 +1,8 @@
 <?php
-namespace Test\Lucinda\Console\Language;
+namespace Test\Lucinda\ConsoleViewLanguage\Language;
 
-use Test\Lucinda\Console\Helper;
-use Lucinda\Console\Language\SourcePosition;
+use Test\Lucinda\ConsoleViewLanguage\Helper;
+use Lucinda\ConsoleViewLanguage\Language\SourcePosition;
 use Lucinda\UnitTest\Validator\Arrays;
 use Lucinda\UnitTest\Validator\Booleans;
 use Lucinda\UnitTest\Validator\Objects;

@@ -18,8 +18,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Lucinda\\Console\\": "src/",
-            "Test\\Lucinda\\Console\\": "tests/"
+            "Lucinda\\ConsoleViewLanguage\\": "src/",
+            "Test\\Lucinda\\ConsoleViewLanguage\\": "tests/"
         }
     },
     "authors": [

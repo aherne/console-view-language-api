@@ -1,7 +1,7 @@
 <?php
-namespace Test\Lucinda\Console\Styling;
+namespace Test\Lucinda\ConsoleViewLanguage\Styling;
 
-use Lucinda\Console\Styling\Style;
+use Lucinda\ConsoleViewLanguage\Styling\Style;
 use Lucinda\UnitTest\Validator\Arrays;
 use Lucinda\UnitTest\Validator\Booleans;
 use Lucinda\UnitTest\Validator\Strings;

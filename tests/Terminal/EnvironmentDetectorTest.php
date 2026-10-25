@@ -1,8 +1,8 @@
 <?php
-namespace Test\Lucinda\Console\Terminal;
+namespace Test\Lucinda\ConsoleViewLanguage\Terminal;
 
-use Lucinda\Console\Terminal\EnvironmentDetector;
-use Lucinda\Console\Terminal\EnvironmentDetector\Results;
+use Lucinda\ConsoleViewLanguage\Terminal\EnvironmentDetector;
+use Lucinda\ConsoleViewLanguage\Terminal\EnvironmentDetector\Results;
 use Lucinda\UnitTest\Validator\Objects;
     
 class EnvironmentDetectorTest

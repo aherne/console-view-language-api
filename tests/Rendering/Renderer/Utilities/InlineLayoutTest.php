@@ -1,11 +1,11 @@
 <?php
-namespace Test\Lucinda\Console\Rendering\Renderer\Utilities;
+namespace Test\Lucinda\ConsoleViewLanguage\Rendering\Renderer\Utilities;
 
-use Lucinda\Console\Rendering\Renderer\Utilities\InlineLayout;
-use Lucinda\Console\Rendering\InlineSegment;
-use Lucinda\Console\Styling\Style;
-use Lucinda\Console\Terminal\ColorDepth;
-use Test\Lucinda\Console\Helper;
+use Lucinda\ConsoleViewLanguage\Rendering\Renderer\Utilities\InlineLayout;
+use Lucinda\ConsoleViewLanguage\Rendering\InlineSegment;
+use Lucinda\ConsoleViewLanguage\Styling\Style;
+use Lucinda\ConsoleViewLanguage\Terminal\ColorDepth;
+use Test\Lucinda\ConsoleViewLanguage\Helper;
 use Lucinda\UnitTest\Validator\Arrays;
 use Lucinda\UnitTest\Validator\Strings;
     

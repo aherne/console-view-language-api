@@ -1,10 +1,10 @@
 <?php
-namespace Test\Lucinda\Console\Language;
+namespace Test\Lucinda\ConsoleViewLanguage\Language;
 
-use Lucinda\Console\Language\ElementNode;
-use Lucinda\Console\Language\ParseException;
-use Lucinda\Console\Language\Parser;
-use Test\Lucinda\Console\Helper;
+use Lucinda\ConsoleViewLanguage\Language\ElementNode;
+use Lucinda\ConsoleViewLanguage\Language\ParseException;
+use Lucinda\ConsoleViewLanguage\Language\Parser;
+use Test\Lucinda\ConsoleViewLanguage\Helper;
 use Lucinda\UnitTest\Validator\Arrays;
 use Lucinda\UnitTest\Validator\Booleans;
 use Lucinda\UnitTest\Validator\Objects;

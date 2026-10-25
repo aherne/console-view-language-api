@@ -1,10 +1,10 @@
 <?php
 
-namespace Lucinda\Console\Rendering\Renderer;
+namespace Lucinda\ConsoleViewLanguage\Rendering\Renderer;
 
-use Lucinda\Console\Language\ElementNode;
-use Lucinda\Console\Rendering\Renderer\Utilities\ContextAware;
-use Lucinda\Console\Rendering\Renderer\Utilities\TextLayout;
+use Lucinda\ConsoleViewLanguage\Language\ElementNode;
+use Lucinda\ConsoleViewLanguage\Rendering\Renderer\Utilities\ContextAware;
+use Lucinda\ConsoleViewLanguage\Rendering\Renderer\Utilities\TextLayout;
 
 final class ParagraphRenderer extends ContextAware
 {

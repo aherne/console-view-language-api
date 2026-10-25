@@ -1,12 +1,12 @@
 <?php
 
-namespace Lucinda\Console\Rendering\Renderer;
+namespace Lucinda\ConsoleViewLanguage\Rendering\Renderer;
 
-use Lucinda\Console\Language\ElementNode;
-use Lucinda\Console\Language\TextNode;
-use Lucinda\Console\Rendering\Renderer\Utilities\ContextAware;
-use Lucinda\Console\Rendering\Renderer\Utilities\WidthResolver;
-use Lucinda\Console\Styling\Style;
+use Lucinda\ConsoleViewLanguage\Language\ElementNode;
+use Lucinda\ConsoleViewLanguage\Language\TextNode;
+use Lucinda\ConsoleViewLanguage\Rendering\Renderer\Utilities\ContextAware;
+use Lucinda\ConsoleViewLanguage\Rendering\Renderer\Utilities\WidthResolver;
+use Lucinda\ConsoleViewLanguage\Styling\Style;
 
 final class MultiRenderer extends ContextAware implements NodesRenderer
 {

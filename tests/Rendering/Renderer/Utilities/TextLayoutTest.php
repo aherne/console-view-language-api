@@ -1,8 +1,8 @@
 <?php
-namespace Test\Lucinda\Console\Rendering\Renderer\Utilities;
+namespace Test\Lucinda\ConsoleViewLanguage\Rendering\Renderer\Utilities;
 
-use Lucinda\Console\Rendering\Renderer\Utilities\TextLayout;
-use Test\Lucinda\Console\Helper;
+use Lucinda\ConsoleViewLanguage\Rendering\Renderer\Utilities\TextLayout;
+use Test\Lucinda\ConsoleViewLanguage\Helper;
 use Lucinda\UnitTest\Validator\Strings;
     
 class TextLayoutTest

@@ -1,14 +1,14 @@
 <?php
 
-namespace Lucinda\Console\Rendering;
+namespace Lucinda\ConsoleViewLanguage\Rendering;
 
-use Lucinda\Console\Language\DocumentNode;
-use Lucinda\Console\Rendering\Renderer\MultiRenderer;
-use Lucinda\Console\Rendering\Renderer\Utilities\RenderingContext;
-use Lucinda\Console\Styling\StyleResolver;
-use Lucinda\Console\Styling\Theme;
-use Lucinda\Console\Terminal\ColorDepth;
-use Lucinda\Console\Terminal\EnvironmentDetector\Results;
+use Lucinda\ConsoleViewLanguage\Language\DocumentNode;
+use Lucinda\ConsoleViewLanguage\Rendering\Renderer\MultiRenderer;
+use Lucinda\ConsoleViewLanguage\Rendering\Renderer\Utilities\RenderingContext;
+use Lucinda\ConsoleViewLanguage\Styling\StyleResolver;
+use Lucinda\ConsoleViewLanguage\Styling\Theme;
+use Lucinda\ConsoleViewLanguage\Terminal\ColorDepth;
+use Lucinda\ConsoleViewLanguage\Terminal\EnvironmentDetector\Results;
 
 final class TerminalRenderer
 {

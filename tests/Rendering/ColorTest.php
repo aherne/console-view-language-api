@@ -1,10 +1,10 @@
 <?php
-namespace Test\Lucinda\Console\Rendering;
+namespace Test\Lucinda\ConsoleViewLanguage\Rendering;
 
-use Lucinda\Console\Exception;
-use Lucinda\Console\Rendering\Color;
-use Lucinda\Console\Terminal\ColorDepth;
-use Test\Lucinda\Console\Helper;
+use Lucinda\ConsoleViewLanguage\Exception;
+use Lucinda\ConsoleViewLanguage\Rendering\Color;
+use Lucinda\ConsoleViewLanguage\Terminal\ColorDepth;
+use Test\Lucinda\ConsoleViewLanguage\Helper;
 use Lucinda\UnitTest\Validator\Booleans;
 use Lucinda\UnitTest\Validator\Strings;
     

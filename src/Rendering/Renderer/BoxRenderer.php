@@ -1,11 +1,11 @@
 <?php
 
-namespace Lucinda\Console\Rendering\Renderer;
+namespace Lucinda\ConsoleViewLanguage\Rendering\Renderer;
 
-use Lucinda\Console\Language\ElementNode;
-use Lucinda\Console\Rendering\Renderer\Utilities\BorderCharacters;
-use Lucinda\Console\Rendering\Renderer\Utilities\ContextAware;
-use Lucinda\Console\Rendering\Renderer\Utilities\TextLayout;
+use Lucinda\ConsoleViewLanguage\Language\ElementNode;
+use Lucinda\ConsoleViewLanguage\Rendering\Renderer\Utilities\BorderCharacters;
+use Lucinda\ConsoleViewLanguage\Rendering\Renderer\Utilities\ContextAware;
+use Lucinda\ConsoleViewLanguage\Rendering\Renderer\Utilities\TextLayout;
 
 final class BoxRenderer extends ContextAware
 {

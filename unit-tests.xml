@@ -3,8 +3,8 @@
 <xml>
   <unit_tests>
     <unit_test>
-      <sources path="src" namespace="Lucinda\Console\"/>
-      <tests path="tests" namespace="Test\Lucinda\Console\"/>
+      <sources path="src" namespace="Lucinda\ConsoleViewLanguage\"/>
+      <tests path="tests" namespace="Test\Lucinda\ConsoleViewLanguage\"/>
     </unit_test>
   </unit_tests>
 </xml>

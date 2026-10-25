@@ -1,0 +1,30 @@
+tests/EngineTest.php:7:use Lucinda\ConsoleViewLanguage\Terminal\ColorDepth;
+tests/EngineTest.php:26:        $ansi = $engine->render("<error>Failure</error>", $helper->environment(80, ColorDepth::ANSI16), RenderMode::ANSI);
+tests/Interactive/LiveSpinnerTest.php:15:        $spinner = new LiveSpinner($helper->environment(80, \Lucinda\ConsoleViewLanguage\Terminal\ColorDepth::NONE, false, false, true), "Loading");
+tests/Interactive/LiveSpinnerTest.php:26:        $spinner = new LiveSpinner((new Helper())->environment(80, \Lucinda\ConsoleViewLanguage\Terminal\ColorDepth::NONE, false, false, true));
+tests/Interactive/LiveProgressTest.php:16:        $progress = new LiveProgress(new Engine(), $helper->environment(40, \Lucinda\ConsoleViewLanguage\Terminal\ColorDepth::NONE, false, false, true), 10);
+tests/Interactive/LiveProgressTest.php:27:        $progress = new LiveProgress(new Engine(), (new Helper())->environment(40, \Lucinda\ConsoleViewLanguage\Terminal\ColorDepth::NONE, false, false, true), 10);
+tests/Terminal/EnvironmentDetector/ResultsTest.php:4:use Lucinda\ConsoleViewLanguage\Terminal\ColorDepth;
+tests/Terminal/EnvironmentDetector/ResultsTest.php:48:        $results->setColorDepth(ColorDepth::TRUE_COLOR);
+tests/Terminal/EnvironmentDetector/ResultsTest.php:49:        return (new Objects($results->getColorDepth()))->assertInstanceOf(ColorDepth::class);
+tests/Terminal/EnvironmentDetector/ResultsTest.php:55:        return (new Objects($this->results()->getColorDepth()))->assertInstanceOf(ColorDepth::class);
+tests/Rendering/AnsiPainterTest.php:7:use Lucinda\ConsoleViewLanguage\Terminal\ColorDepth;
+tests/Rendering/AnsiPainterTest.php:21:            $helper->environment(80, ColorDepth::ANSI16)
+tests/Rendering/AnsiPainterTest.php:26:            $helper->environment(80, ColorDepth::ANSI16, true, true),
+tests/Rendering/ColorTest.php:6:use Lucinda\ConsoleViewLanguage\Terminal\ColorDepth;
+tests/Rendering/ColorTest.php:18:            (new Strings((string) $color->getAnsiCode("red", ColorDepth::ANSI16)))->assertEquals("31", "ansi16"),
+tests/Rendering/ColorTest.php:19:            (new Strings((string) $color->getAnsiCode("#ff0000", ColorDepth::TRUE_COLOR)))->assertEquals("38;2;255;0;0", "true color"),
+tests/Rendering/ColorTest.php:20:            (new Strings((string) $color->getAnsiCode("ansi-208", ColorDepth::ANSI256)))->assertEquals("38;5;208", "ansi256"),
+tests/Rendering/ColorTest.php:21:            (new Strings((string) $color->getAnsiCode("default", ColorDepth::ANSI16, true)))->assertEquals("49", "default background"),
+tests/Rendering/ColorTest.php:22:            (new Booleans($color->getAnsiCode("red", ColorDepth::NONE) === null))->assertTrue("no color")
+tests/Rendering/Renderer/TableRendererTest.php:22:        $output = implode("\n", (new TableRenderer($helper->context(20, \Lucinda\ConsoleViewLanguage\Terminal\ColorDepth::NONE, false)))->render($table, 20));
+tests/Rendering/Renderer/Utilities/RenderingContextTest.php:17:        return (new Helper())->context(80, \Lucinda\ConsoleViewLanguage\Terminal\ColorDepth::ANSI16, true, true);
+tests/Rendering/Renderer/Utilities/BorderCharactersTest.php:15:        $ascii = new BorderCharacters((new Helper())->context(80, \Lucinda\ConsoleViewLanguage\Terminal\ColorDepth::NONE, false));
+tests/Rendering/Renderer/Utilities/InlineLayoutTest.php:7:use Lucinda\ConsoleViewLanguage\Terminal\ColorDepth;
+tests/Rendering/Renderer/Utilities/InlineLayoutTest.php:31:        $layout = new InlineLayout((new Helper())->context(80, ColorDepth::ANSI16, true, true));
+tests/Rendering/Renderer/BoxRendererTest.php:16:        $output = implode("\n", (new BoxRenderer($helper->context(20, \Lucinda\ConsoleViewLanguage\Terminal\ColorDepth::NONE, false)))->render($box, 10, new MultiRenderer($helper->context(20, \Lucinda\ConsoleViewLanguage\Terminal\ColorDepth::NONE, false))));
+tests/Rendering/Renderer/ProgressRendererTest.php:15:        return (new Strings((new ProgressRenderer($helper->context(20, \Test\Lucinda\ConsoleViewLanguage\ColorDepth::NONE, false)))->render($progress, 20)))->assertContains("50%");
+tests/Helper.php:16:use Lucinda\ConsoleViewLanguage\Terminal\ColorDepth;
+tests/Helper.php:23:        ColorDepth $depth = ColorDepth::NONE,
+tests/Helper.php:40:        ColorDepth $depth = ColorDepth::NONE,
+tests/Helper.php:95:            $this->environment($width, ColorDepth::NONE, $unicode),

@@ -1,8 +1,8 @@
 <?php
-namespace Test\Lucinda\Console\Rendering\Renderer;
+namespace Test\Lucinda\ConsoleViewLanguage\Rendering\Renderer;
 
-use Lucinda\Console\Rendering\Renderer\MultiRenderer;
-use Test\Lucinda\Console\Helper;
+use Lucinda\ConsoleViewLanguage\Rendering\Renderer\MultiRenderer;
+use Test\Lucinda\ConsoleViewLanguage\Helper;
 use Lucinda\UnitTest\Validator\Arrays;
 use Lucinda\UnitTest\Validator\Strings;
     

@@ -1,6 +1,6 @@
 <?php
 
-namespace Lucinda\Console;
+namespace Lucinda\ConsoleViewLanguage;
 
 enum RenderMode: string
 {

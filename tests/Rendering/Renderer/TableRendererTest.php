@@ -1,9 +1,10 @@
 <?php
-namespace Test\Lucinda\Console\Rendering\Renderer;
+namespace Test\Lucinda\ConsoleViewLanguage\Rendering\Renderer;
 
-use Lucinda\Console\Rendering\Renderer\TableRenderer;
-use Test\Lucinda\Console\Helper;
+use Lucinda\ConsoleViewLanguage\Rendering\Renderer\TableRenderer;
+use Test\Lucinda\ConsoleViewLanguage\Helper;
 use Lucinda\UnitTest\Validator\Strings;
+use Lucinda\ConsoleViewLanguage\Terminal\ColorDepth;
     
 class TableRendererTest
 {
@@ -19,7 +20,7 @@ class TableRendererTest
                 ])
             ])
         ]);
-        $output = implode("\n", (new TableRenderer($helper->context(20, \Lucinda\Console\Terminal\ColorDepth::NONE, false)))->render($table, 20));
+        $output = implode("\n", (new TableRenderer($helper->context(20, ColorDepth::NONE, false)))->render($table, 20));
         return [
             (new Strings($output))->assertContains("+"),
             (new Strings($output))->assertContains(" A ")

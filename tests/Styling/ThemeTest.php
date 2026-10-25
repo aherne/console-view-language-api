@@ -1,8 +1,8 @@
 <?php
-namespace Test\Lucinda\Console\Styling;
+namespace Test\Lucinda\ConsoleViewLanguage\Styling;
 
-use Lucinda\Console\Styling\Style;
-use Lucinda\Console\Styling\Theme;
+use Lucinda\ConsoleViewLanguage\Styling\Style;
+use Lucinda\ConsoleViewLanguage\Styling\Theme;
 use Lucinda\UnitTest\Validator\Booleans;
 use Lucinda\UnitTest\Validator\Objects;
 use Lucinda\UnitTest\Validator\Strings;

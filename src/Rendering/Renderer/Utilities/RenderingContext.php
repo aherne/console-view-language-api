@@ -1,11 +1,11 @@
 <?php
 
-namespace Lucinda\Console\Rendering\Renderer\Utilities;
+namespace Lucinda\ConsoleViewLanguage\Rendering\Renderer\Utilities;
 
-use Lucinda\Console\Rendering\AnsiPainter;
-use Lucinda\Console\Rendering\DisplayWidth;
-use Lucinda\Console\Styling\StyleResolver;
-use Lucinda\Console\Terminal\EnvironmentDetector\Results;
+use Lucinda\ConsoleViewLanguage\Rendering\AnsiPainter;
+use Lucinda\ConsoleViewLanguage\Rendering\DisplayWidth;
+use Lucinda\ConsoleViewLanguage\Styling\StyleResolver;
+use Lucinda\ConsoleViewLanguage\Terminal\EnvironmentDetector\Results;
 
 final class RenderingContext
 {

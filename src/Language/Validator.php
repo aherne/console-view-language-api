@@ -1,9 +1,9 @@
 <?php
 
-namespace Lucinda\Console\Language;
+namespace Lucinda\ConsoleViewLanguage\Language;
 
-use Lucinda\Console\Exception;
-use Lucinda\Console\Rendering\Color;
+use Lucinda\ConsoleViewLanguage\Exception;
+use Lucinda\ConsoleViewLanguage\Rendering\Color;
 
 final class Validator
 {

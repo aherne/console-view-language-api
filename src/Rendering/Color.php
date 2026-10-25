@@ -1,9 +1,9 @@
 <?php
 
-namespace Lucinda\Console\Rendering;
+namespace Lucinda\ConsoleViewLanguage\Rendering;
 
-use Lucinda\Console\Exception;
-use Lucinda\Console\Terminal\ColorDepth;
+use Lucinda\ConsoleViewLanguage\Exception;
+use Lucinda\ConsoleViewLanguage\Terminal\ColorDepth;
 
 final class Color
 {

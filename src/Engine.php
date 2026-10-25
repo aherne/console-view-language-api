@@ -1,13 +1,13 @@
 <?php
 
-namespace Lucinda\Console;
+namespace Lucinda\ConsoleViewLanguage;
 
-use Lucinda\Console\Language\DocumentNode;
-use Lucinda\Console\Language\Parser;
-use Lucinda\Console\Rendering\TerminalRenderer;
-use Lucinda\Console\Styling\Theme;
-use Lucinda\Console\Terminal\EnvironmentDetector;
-use Lucinda\Console\Terminal\EnvironmentDetector\Results;
+use Lucinda\ConsoleViewLanguage\Language\DocumentNode;
+use Lucinda\ConsoleViewLanguage\Language\Parser;
+use Lucinda\ConsoleViewLanguage\Rendering\TerminalRenderer;
+use Lucinda\ConsoleViewLanguage\Styling\Theme;
+use Lucinda\ConsoleViewLanguage\Terminal\EnvironmentDetector;
+use Lucinda\ConsoleViewLanguage\Terminal\EnvironmentDetector\Results;
 
 final class Engine
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Lucinda\Console;
+namespace Lucinda\ConsoleViewLanguage;
 
 /**
  * Defines a generic exception thrown when API encounters error of usage by developers

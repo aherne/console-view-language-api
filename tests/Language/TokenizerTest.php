@@ -1,10 +1,10 @@
 <?php
-namespace Test\Lucinda\Console\Language;
+namespace Test\Lucinda\ConsoleViewLanguage\Language;
 
-use Lucinda\Console\Language\ParseException;
-use Lucinda\Console\Language\Tokenizer;
-use Lucinda\Console\Language\TokenType;
-use Test\Lucinda\Console\Helper;
+use Lucinda\ConsoleViewLanguage\Language\ParseException;
+use Lucinda\ConsoleViewLanguage\Language\Tokenizer;
+use Lucinda\ConsoleViewLanguage\Language\TokenType;
+use Test\Lucinda\ConsoleViewLanguage\Helper;
 use Lucinda\UnitTest\Validator\Arrays;
 use Lucinda\UnitTest\Validator\Booleans;
 use Lucinda\UnitTest\Validator\Objects;

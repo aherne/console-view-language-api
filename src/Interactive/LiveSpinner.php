@@ -1,11 +1,11 @@
 <?php
 
-namespace Lucinda\Console\Interactive;
+namespace Lucinda\ConsoleViewLanguage\Interactive;
 
-use Lucinda\Console\Exception;
-use Lucinda\Console\Rendering\DisplayWidth;
-use Lucinda\Console\Terminal\EnvironmentDetector;
-use Lucinda\Console\Terminal\EnvironmentDetector\Results;
+use Lucinda\ConsoleViewLanguage\Exception;
+use Lucinda\ConsoleViewLanguage\Rendering\DisplayWidth;
+use Lucinda\ConsoleViewLanguage\Terminal\EnvironmentDetector;
+use Lucinda\ConsoleViewLanguage\Terminal\EnvironmentDetector\Results;
 
 final class LiveSpinner
 {

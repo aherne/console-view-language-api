@@ -1,12 +1,12 @@
 <?php
 
-namespace Lucinda\Console\Rendering\Renderer;
+namespace Lucinda\ConsoleViewLanguage\Rendering\Renderer;
 
-use Lucinda\Console\Language\ElementNode;
-use Lucinda\Console\Language\Node;
-use Lucinda\Console\Rendering\Renderer\Utilities\ContextAware;
-use Lucinda\Console\Rendering\Renderer\Utilities\TextLayout;
-use Lucinda\Console\Rendering\Renderer\Utilities\WidthResolver;
+use Lucinda\ConsoleViewLanguage\Language\ElementNode;
+use Lucinda\ConsoleViewLanguage\Language\Node;
+use Lucinda\ConsoleViewLanguage\Rendering\Renderer\Utilities\ContextAware;
+use Lucinda\ConsoleViewLanguage\Rendering\Renderer\Utilities\TextLayout;
+use Lucinda\ConsoleViewLanguage\Rendering\Renderer\Utilities\WidthResolver;
 
 final class ColumnsRenderer extends ContextAware
 {

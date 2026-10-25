@@ -1,12 +1,12 @@
 <?php
-namespace Test\Lucinda\Console\Rendering\Renderer\Utilities;
+namespace Test\Lucinda\ConsoleViewLanguage\Rendering\Renderer\Utilities;
 
-use Lucinda\Console\Rendering\Renderer\Utilities\RenderingContext;
-use Lucinda\Console\Rendering\AnsiPainter;
-use Lucinda\Console\Rendering\DisplayWidth;
-use Lucinda\Console\Styling\StyleResolver;
-use Lucinda\Console\Terminal\EnvironmentDetector\Results;
-use Test\Lucinda\Console\Helper;
+use Lucinda\ConsoleViewLanguage\Rendering\Renderer\Utilities\RenderingContext;
+use Lucinda\ConsoleViewLanguage\Rendering\AnsiPainter;
+use Lucinda\ConsoleViewLanguage\Rendering\DisplayWidth;
+use Lucinda\ConsoleViewLanguage\Styling\StyleResolver;
+use Lucinda\ConsoleViewLanguage\Terminal\EnvironmentDetector\Results;
+use Test\Lucinda\ConsoleViewLanguage\Helper;
 use Lucinda\UnitTest\Validator\Booleans;
 use Lucinda\UnitTest\Validator\Objects;
     
@@ -14,7 +14,7 @@ class RenderingContextTest
 {
     private function context(): RenderingContext
     {
-        return (new Helper())->context(80, \Lucinda\Console\Terminal\ColorDepth::ANSI16, true, true);
+        return (new Helper())->context(80, \Lucinda\ConsoleViewLanguage\Terminal\ColorDepth::ANSI16, true, true);
     }
 
     public function getStyles()

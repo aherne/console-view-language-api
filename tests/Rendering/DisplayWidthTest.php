@@ -1,7 +1,7 @@
 <?php
-namespace Test\Lucinda\Console\Rendering;
+namespace Test\Lucinda\ConsoleViewLanguage\Rendering;
 
-use Lucinda\Console\Rendering\DisplayWidth;
+use Lucinda\ConsoleViewLanguage\Rendering\DisplayWidth;
 use Lucinda\UnitTest\Validator\Integers;
 use Lucinda\UnitTest\Validator\Strings;
     

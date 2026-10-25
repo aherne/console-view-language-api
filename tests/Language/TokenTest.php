@@ -1,10 +1,10 @@
 <?php
-namespace Test\Lucinda\Console\Language;
+namespace Test\Lucinda\ConsoleViewLanguage\Language;
 
-use Lucinda\Console\Language\Token;
-use Lucinda\Console\Language\SourcePosition;
-use Lucinda\Console\Language\TokenType;
-use Test\Lucinda\Console\Helper;
+use Lucinda\ConsoleViewLanguage\Language\Token;
+use Lucinda\ConsoleViewLanguage\Language\SourcePosition;
+use Lucinda\ConsoleViewLanguage\Language\TokenType;
+use Test\Lucinda\ConsoleViewLanguage\Helper;
 use Lucinda\UnitTest\Validator\Arrays;
 use Lucinda\UnitTest\Validator\Objects;
 use Lucinda\UnitTest\Validator\Strings;

@@ -1,20 +1,20 @@
 <?php
 
-namespace Test\Lucinda\Console;
+namespace Test\Lucinda\ConsoleViewLanguage;
 
-use Lucinda\Console\Engine;
-use Lucinda\Console\Language\DocumentNode;
-use Lucinda\Console\Language\ElementNode;
-use Lucinda\Console\Language\SourcePosition;
-use Lucinda\Console\Language\TextNode;
-use Lucinda\Console\Rendering\AnsiPainter;
-use Lucinda\Console\Rendering\Color;
-use Lucinda\Console\Rendering\DisplayWidth;
-use Lucinda\Console\Rendering\Renderer\Utilities\RenderingContext;
-use Lucinda\Console\Styling\StyleResolver;
-use Lucinda\Console\Styling\Theme;
-use Lucinda\Console\Terminal\ColorDepth;
-use Lucinda\Console\Terminal\EnvironmentDetector\Results;
+use Lucinda\ConsoleViewLanguage\Engine;
+use Lucinda\ConsoleViewLanguage\Language\DocumentNode;
+use Lucinda\ConsoleViewLanguage\Language\ElementNode;
+use Lucinda\ConsoleViewLanguage\Language\SourcePosition;
+use Lucinda\ConsoleViewLanguage\Language\TextNode;
+use Lucinda\ConsoleViewLanguage\Rendering\AnsiPainter;
+use Lucinda\ConsoleViewLanguage\Rendering\Color;
+use Lucinda\ConsoleViewLanguage\Rendering\DisplayWidth;
+use Lucinda\ConsoleViewLanguage\Rendering\Renderer\Utilities\RenderingContext;
+use Lucinda\ConsoleViewLanguage\Styling\StyleResolver;
+use Lucinda\ConsoleViewLanguage\Styling\Theme;
+use Lucinda\ConsoleViewLanguage\Terminal\ColorDepth;
+use Lucinda\ConsoleViewLanguage\Terminal\EnvironmentDetector\Results;
 
 final class Helper
 {
@@ -93,7 +93,7 @@ final class Helper
         return (new Engine())->render(
             $markup,
             $this->environment($width, ColorDepth::NONE, $unicode),
-            \Lucinda\Console\RenderMode::PLAIN_TEXT
+            \Lucinda\ConsoleViewLanguage\RenderMode::PLAIN_TEXT
         );
     }
 }

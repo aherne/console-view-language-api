@@ -1,9 +1,10 @@
 <?php
-namespace Test\Lucinda\Console\Rendering\Renderer;
+namespace Test\Lucinda\ConsoleViewLanguage\Rendering\Renderer;
 
-use Lucinda\Console\Rendering\Renderer\ProgressRenderer;
-use Test\Lucinda\Console\Helper;
+use Lucinda\ConsoleViewLanguage\Rendering\Renderer\ProgressRenderer;
+use Test\Lucinda\ConsoleViewLanguage\Helper;
 use Lucinda\UnitTest\Validator\Strings;
+use Lucinda\ConsoleViewLanguage\Terminal\ColorDepth;
     
 class ProgressRendererTest
 {
@@ -12,7 +13,7 @@ class ProgressRendererTest
     {
         $helper = new Helper();
         $progress = $helper->element("progress", ["value" => "5", "max" => "10", "label" => "50%"]);
-        return (new Strings((new ProgressRenderer($helper->context(20, \Lucinda\Console\Terminal\ColorDepth::NONE, false)))->render($progress, 20)))->assertContains("50%");
+        return (new Strings((new ProgressRenderer($helper->context(20, ColorDepth::NONE, false)))->render($progress, 20)))->assertContains("50%");
     }
         
 

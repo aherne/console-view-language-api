@@ -1,6 +1,6 @@
 <?php
 
-namespace Lucinda\Console\Styling;
+namespace Lucinda\ConsoleViewLanguage\Styling;
 
 final class Style
 {

@@ -1,10 +1,11 @@
 <?php
-namespace Test\Lucinda\Console\Rendering\Renderer\Utilities;
+namespace Test\Lucinda\ConsoleViewLanguage\Rendering\Renderer\Utilities;
 
-use Lucinda\Console\Rendering\Renderer\Utilities\BorderCharacters;
-use Test\Lucinda\Console\Helper;
+use Lucinda\ConsoleViewLanguage\Rendering\Renderer\Utilities\BorderCharacters;
+use Test\Lucinda\ConsoleViewLanguage\Helper;
 use Lucinda\UnitTest\Validator\Arrays;
 use Lucinda\UnitTest\Validator\Strings;
+use Lucinda\ConsoleViewLanguage\Terminal\ColorDepth;
     
 class BorderCharactersTest
 {
@@ -12,7 +13,7 @@ class BorderCharactersTest
     public function borderCharacters()
     {
         $unicode = new BorderCharacters((new Helper())->context());
-        $ascii = new BorderCharacters((new Helper())->context(80, \Lucinda\Console\Terminal\ColorDepth::NONE, false));
+        $ascii = new BorderCharacters((new Helper())->context(80, ColorDepth::NONE, false));
         return [
             (new Strings($unicode->borderCharacters("rounded")[0]))->assertEquals("╭", "unicode"),
             (new Strings($ascii->borderCharacters("rounded")[0]))->assertEquals("+", "ascii")

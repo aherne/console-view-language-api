@@ -1,11 +1,11 @@
 <?php
-namespace Test\Lucinda\Console\Rendering;
+namespace Test\Lucinda\ConsoleViewLanguage\Rendering;
 
-use Lucinda\Console\Rendering\AnsiPainter;
-use Lucinda\Console\Rendering\Color;
-use Lucinda\Console\Styling\Style;
-use Lucinda\Console\Terminal\ColorDepth;
-use Test\Lucinda\Console\Helper;
+use Lucinda\ConsoleViewLanguage\Rendering\AnsiPainter;
+use Lucinda\ConsoleViewLanguage\Rendering\Color;
+use Lucinda\ConsoleViewLanguage\Styling\Style;
+use Lucinda\ConsoleViewLanguage\Terminal\ColorDepth;
+use Test\Lucinda\ConsoleViewLanguage\Helper;
 use Lucinda\UnitTest\Validator\Strings;
     
 class AnsiPainterTest

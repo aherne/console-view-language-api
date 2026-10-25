@@ -1,8 +1,8 @@
 <?php
-namespace Test\Lucinda\Console\Terminal\EnvironmentDetector;
+namespace Test\Lucinda\ConsoleViewLanguage\Terminal\EnvironmentDetector;
 
-use Lucinda\Console\Terminal\ColorDepth;
-use Lucinda\Console\Terminal\EnvironmentDetector\Results;
+use Lucinda\ConsoleViewLanguage\Terminal\ColorDepth;
+use Lucinda\ConsoleViewLanguage\Terminal\EnvironmentDetector\Results;
 use Lucinda\UnitTest\Validator\Booleans;
 use Lucinda\UnitTest\Validator\Integers;
 use Lucinda\UnitTest\Validator\Objects;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Lucinda\Console\Rendering\Renderer\Utilities;
+namespace Lucinda\ConsoleViewLanguage\Rendering\Renderer\Utilities;
 
 final class TextLayout extends ContextAware
 {

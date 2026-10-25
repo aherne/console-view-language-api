@@ -1,6 +1,6 @@
 <?php
 
-namespace Lucinda\Console\Language;
+namespace Lucinda\ConsoleViewLanguage\Language;
 
 enum TokenType
 {

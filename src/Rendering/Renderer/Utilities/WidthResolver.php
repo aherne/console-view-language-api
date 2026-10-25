@@ -1,8 +1,8 @@
 <?php
 
-namespace Lucinda\Console\Rendering\Renderer\Utilities;
+namespace Lucinda\ConsoleViewLanguage\Rendering\Renderer\Utilities;
 
-use Lucinda\Console\Language\ElementNode;
+use Lucinda\ConsoleViewLanguage\Language\ElementNode;
 
 final class WidthResolver extends ContextAware
 {    

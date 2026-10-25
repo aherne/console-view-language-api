@@ -1,6 +1,6 @@
 <?php
 
-namespace Lucinda\Console\Rendering;
+namespace Lucinda\ConsoleViewLanguage\Rendering;
 
 final class DisplayWidth
 {

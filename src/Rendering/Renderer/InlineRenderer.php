@@ -1,11 +1,11 @@
 <?php
 
-namespace Lucinda\Console\Rendering\Renderer;
+namespace Lucinda\ConsoleViewLanguage\Rendering\Renderer;
 
-use Lucinda\Console\Rendering\InlineSegment;
-use Lucinda\Console\Rendering\Renderer\Utilities\ContextAware;
-use Lucinda\Console\Rendering\Renderer\Utilities\InlineLayout;
-use Lucinda\Console\Styling\Style;
+use Lucinda\ConsoleViewLanguage\Rendering\InlineSegment;
+use Lucinda\ConsoleViewLanguage\Rendering\Renderer\Utilities\ContextAware;
+use Lucinda\ConsoleViewLanguage\Rendering\Renderer\Utilities\InlineLayout;
+use Lucinda\ConsoleViewLanguage\Styling\Style;
 
 final class InlineRenderer extends ContextAware
 {

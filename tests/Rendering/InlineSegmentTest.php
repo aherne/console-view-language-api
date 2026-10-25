@@ -1,8 +1,8 @@
 <?php
-namespace Test\Lucinda\Console\Rendering;
+namespace Test\Lucinda\ConsoleViewLanguage\Rendering;
 
-use Lucinda\Console\Rendering\InlineSegment;
-use Lucinda\Console\Styling\Style;
+use Lucinda\ConsoleViewLanguage\Rendering\InlineSegment;
+use Lucinda\ConsoleViewLanguage\Styling\Style;
 use Lucinda\UnitTest\Validator\Objects;
 use Lucinda\UnitTest\Validator\Strings;
     

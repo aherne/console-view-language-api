@@ -1,8 +1,8 @@
 <?php
 
-namespace Lucinda\Console;
+namespace Lucinda\ConsoleViewLanguage;
 
-use Lucinda\Console\Terminal\EnvironmentDetector;
+use Lucinda\ConsoleViewLanguage\Terminal\EnvironmentDetector;
 
 final class Wrapper
 {

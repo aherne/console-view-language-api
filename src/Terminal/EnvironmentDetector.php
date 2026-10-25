@@ -1,8 +1,8 @@
 <?php
 
-namespace Lucinda\Console\Terminal;
+namespace Lucinda\ConsoleViewLanguage\Terminal;
 
-use Lucinda\Console\Terminal\EnvironmentDetector\Results;
+use Lucinda\ConsoleViewLanguage\Terminal\EnvironmentDetector\Results;
 
 final class EnvironmentDetector
 {

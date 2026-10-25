@@ -1,10 +1,10 @@
 <?php
-namespace Test\Lucinda\Console;
+namespace Test\Lucinda\ConsoleViewLanguage;
 
-use Lucinda\Console\Engine;
-use Lucinda\Console\Language\DocumentNode;
-use Lucinda\Console\RenderMode;
-use Lucinda\Console\Terminal\ColorDepth;
+use Lucinda\ConsoleViewLanguage\Engine;
+use Lucinda\ConsoleViewLanguage\Language\DocumentNode;
+use Lucinda\ConsoleViewLanguage\RenderMode;
+use Lucinda\ConsoleViewLanguage\Terminal\ColorDepth;
 use Lucinda\UnitTest\Validator\Objects;
 use Lucinda\UnitTest\Validator\Strings;
     

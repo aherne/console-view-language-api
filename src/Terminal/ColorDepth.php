@@ -1,6 +1,6 @@
 <?php
 
-namespace Lucinda\Console\Terminal;
+namespace Lucinda\ConsoleViewLanguage\Terminal;
 
 enum ColorDepth: int
 {

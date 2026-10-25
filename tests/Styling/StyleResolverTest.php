@@ -1,9 +1,9 @@
 <?php
-namespace Test\Lucinda\Console\Styling;
+namespace Test\Lucinda\ConsoleViewLanguage\Styling;
 
-use Lucinda\Console\Styling\StyleResolver;
-use Lucinda\Console\Styling\Theme;
-use Test\Lucinda\Console\Helper;
+use Lucinda\ConsoleViewLanguage\Styling\StyleResolver;
+use Lucinda\ConsoleViewLanguage\Styling\Theme;
+use Test\Lucinda\ConsoleViewLanguage\Helper;
 use Lucinda\UnitTest\Validator\Booleans;
 use Lucinda\UnitTest\Validator\Strings;
     

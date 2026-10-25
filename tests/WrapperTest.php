@@ -1,7 +1,7 @@
 <?php
-namespace Test\Lucinda\Console;
+namespace Test\Lucinda\ConsoleViewLanguage;
 
-use Lucinda\Console\Wrapper;
+use Lucinda\ConsoleViewLanguage\Wrapper;
 use Lucinda\UnitTest\Validator\Strings;
     
 class WrapperTest

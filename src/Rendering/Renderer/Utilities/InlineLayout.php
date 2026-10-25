@@ -1,12 +1,12 @@
 <?php
 
-namespace Lucinda\Console\Rendering\Renderer\Utilities;
+namespace Lucinda\ConsoleViewLanguage\Rendering\Renderer\Utilities;
 
-use Lucinda\Console\Language\ElementNode;
-use Lucinda\Console\Language\Node;
-use Lucinda\Console\Language\TextNode;
-use Lucinda\Console\Rendering\InlineSegment;
-use Lucinda\Console\Styling\Style;
+use Lucinda\ConsoleViewLanguage\Language\ElementNode;
+use Lucinda\ConsoleViewLanguage\Language\Node;
+use Lucinda\ConsoleViewLanguage\Language\TextNode;
+use Lucinda\ConsoleViewLanguage\Rendering\InlineSegment;
+use Lucinda\ConsoleViewLanguage\Styling\Style;
 
 final class InlineLayout extends ContextAware
 {

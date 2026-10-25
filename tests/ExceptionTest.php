@@ -1,7 +1,7 @@
 <?php
-namespace Test\Lucinda\Console;
+namespace Test\Lucinda\ConsoleViewLanguage;
 
-use Lucinda\Console\Exception;
+use Lucinda\ConsoleViewLanguage\Exception;
 use Lucinda\UnitTest\Validator\Strings;
     
 class ExceptionTest

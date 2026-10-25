@@ -1,8 +1,8 @@
 <?php
 
-namespace Lucinda\Console\Language;
+namespace Lucinda\ConsoleViewLanguage\Language;
 
-use Lucinda\Console\Exception;
+use Lucinda\ConsoleViewLanguage\Exception;
 
 final class ParseException extends Exception
 {
