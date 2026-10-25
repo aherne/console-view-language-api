@@ -1,0 +1,32 @@
+{
+    "name": "lucinda/console-view",
+    "type": "library",
+    "description": "HTML-like terminal view language and renderer for console MVC applications",
+    "keywords": ["terminal", "console", "ansi", "templating", "mvc", "tables"],
+    "license": "MIT",
+    "require": {
+        "php": "^8.1",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "lucinda/unit-testing": "^2.0",
+        "phpstan/phpstan": "^1.12"
+    },
+    "scripts": {
+        "test": "php test.php",
+        "analyse": "phpstan analyse"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lucinda\\Console\\": "src/",
+            "Test\\Lucinda\\Console\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Lucian Popescu",
+            "email": "lucian.gabriel.popescu@gmail.com",
+            "role": "Developer"
+        }
+    ]
+}
